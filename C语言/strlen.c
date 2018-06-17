@@ -1,0 +1,11 @@
+/* strlen:返回s的长度 */
+int strlen(char s[])
+{
+	int i;
+	
+	
+	i = 0;
+	while (s[i] != '\0')
+		++i;        /* 表示先i+1，然后参与使用 */ 
+	return i;
+ } 
